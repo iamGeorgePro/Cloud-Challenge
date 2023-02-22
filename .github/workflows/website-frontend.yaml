@@ -28,13 +28,13 @@ jobs:
     - name: Configure AWS Credentials
       uses: aws-actions/configure-aws-credentials@v1
       with:
-        role-to-assume: ${{ secrets.IAMROLE_GHACTIONS_CRC }} # store ARN of IAM Role as a GH repo secret
+        role-to-assume: ${{ secrets.IAM_ROLE_POLICY }} # store ARN of IAM Role as a GH repo secret
         aws-region: us-east-1
     
     # Sync S3 bucket to latest repo files (front-end directly only)
     - name: Sync S3 Bucket to Repo
-      run: aws s3 sync './01 - Website Front-End' s3://${{ secrets.AWS_CRC_BUCKET_NAME }} # CLI command:  aws s3 sync LOCAL_DIR s3://BUCKET_NAME
+      run: aws s3 sync './01 - Website Front-End' s3://${{ secrets.AWS_S3_BUCKET }} # CLI command:  aws s3 sync LOCAL_DIR s3://BUCKET_NAME
 
     # Clear Cache of CloudFront Distribution
     - name: Invalidate CloudFront Cache
-      run: aws cloudfront create-invalidation --distribution-id ${{ secrets.AWS_CRC_CLOUDFRONT_ID }} --paths '/*'
+      run: aws cloudfront create-invalidation --distribution-id ${{ secrets.CLOUD_FRONT_DIST }} --paths '/*'
