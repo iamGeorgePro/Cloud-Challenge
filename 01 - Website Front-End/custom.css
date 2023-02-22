@@ -1,0 +1,101 @@
+h1 {
+    font-family: 'Open Sans';
+    font-size: 44px !important;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: 'Open Sans';
+    font-size: 20px !important;
+    overflow-wrap: break-word;
+}
+
+h3 {
+    font-family: 'Open Sans';
+    text-transform: uppercase;
+    font-size: 15px !important;
+    font-weight: bold;
+
+    background-color: rgb(223, 252, 255);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+h4 {
+    font-family: 'Open Sans';
+    font-size: 15px !important;
+}
+
+h5 {
+    font-family: 'Open Sans';
+    font-size: 11px !important;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+p, li {
+    font-family: 'Open Sans';
+    font-size: 13px !important;
+}
+
+
+ul{
+    margin-left: 18px;
+  }
+
+.bold-text {
+    font-family: 'Open Sans';
+    font-size: 11px !important;
+    font-weight: bold;
+}
+
+
+.contact-info {
+    font-family: 'Open Sans';
+    font-size: 12px;
+
+    overflow-wrap: break-word;
+    word-break: break-word;
+
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: 1px;
+
+    padding: 1% 0;
+    border: 3px;
+
+}
+
+.bullet-small {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.footer {
+    text-align: center;
+}
+
+.work-company-row {
+    margin-bottom: 10px;
+}
+
+.work-date-col {
+    border-right-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: 1px;
+}
+
+.view-counter {
+    text-align: center;
+    font-size: 15px !important;
+    font-style: italic;
+    color:rgb(125, 125, 125);
+    background-color: rgb(235, 235, 235);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 12px;
+    padding-bottom: 0px;
+}
