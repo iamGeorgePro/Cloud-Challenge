@@ -4,7 +4,7 @@ name: Update Website Front-End
 on:
   push:
     branches:
-      - main
+      - master
     paths:
       - '01 - Website Front-End/**' # Files within front-end directory, of below listed file types
       - '**.html'
