@@ -4,7 +4,7 @@ name: Update Website Back-End
 on:
   push:
     branches:
-      - main
+      - master
     paths:
       - '02 - Website Back-End/lambda_update_view_count.py' # ONLY Lambda function file
 
@@ -50,7 +50,7 @@ jobs:
     - name: Configure AWS Credentials
       uses: aws-actions/configure-aws-credentials@v1
       with:
-        role-to-assume: ${{ secrets.IAMROLE_GHACTIONS_CRC }} # store ARN of IAM Role as a GH repo secret
+        role-to-assume: ${{ secrets.IAM_ROLE_POLICY }} # store ARN of IAM Role as a GH repo secret
         aws-region: us-east-1
 
     
