@@ -260,7 +260,7 @@ resource "aws_lambda_permission" "lambda-permission-to-api" {
   source_arn = "${aws_api_gateway_rest_api.api-to-lambda-view-count.execution_arn}/${aws_api_gateway_stage.api-stage.stage_name}/${aws_api_gateway_method.api-post-method.http_method}/${aws_api_gateway_resource.api-resource.path_part}"
 }
 
-# --------------------------------------------------------------
+/* # --------------------------------------------------------------
 # ////////       Create aws_acm_certificate   ////////
 # --------------------------------------------------------------
 
@@ -319,7 +319,7 @@ resource "aws_cloudfront_distribution" "my_distribution" {
     acm_certificate_arn = aws_acm_certificate.my_certificate.arn
     ssl_support_method  = "sni-only"
   }
-}
+} */
 
 
 

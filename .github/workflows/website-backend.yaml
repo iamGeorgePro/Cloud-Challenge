@@ -3,8 +3,9 @@ name: Update Website Back-End
 
 on:
   push:
-    branches:
-      - master
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
     paths:
       - '02 - Website Back-End/lambda_update_view_count.py' # ONLY Lambda function file
 
