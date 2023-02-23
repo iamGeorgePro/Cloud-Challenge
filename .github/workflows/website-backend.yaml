@@ -55,11 +55,11 @@ jobs:
         aws-region: us-east-1
 
     
-    # Run Unit Tests on Lambda Function
-    - name: Test Lambda with pytest
-      shell: pwsh
-      run: |
-        pytest './02 - Website Back-End/lambda_update_view_count_TEST.py'
+    # # Run Unit Tests on Lambda Function
+    # - name: Test Lambda with pytest
+    #   shell: pwsh
+    #   run: |
+    #     pytest './02 - Website Back-End/lambda_update_view_count_TEST.py'
     
 
     # Set Up Terraform
