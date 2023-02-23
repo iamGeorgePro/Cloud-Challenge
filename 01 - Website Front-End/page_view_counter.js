@@ -1,4 +1,4 @@
-const api_url = 'https://sm82gzbtzk.execute-api.us-east-1.amazonaws.com/prod/count'
+const api_url = 'https://2tdsogsr2m.execute-api.us-east-1.amazonaws.com/prod/count'
 
     fetch(api_url, {
         method: 'POST'
