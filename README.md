@@ -28,7 +28,7 @@ Check out my article about completing the project here:  [**The Cloud Resume Cha
 
 
 - [x]  1. Earn an **AWS Certification**
-    - passed Cloud Practitioner in September 2022, the Solutions Architect Associate in October 2022
+    - passed Cloud Practitioner in September 2022, the Solutions Architect Associate in December 2022
 
 - [x]  2. Write Resume in **HTML**
     - utilized Bootstrap framework for general organization & positioning
