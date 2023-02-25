@@ -14,7 +14,7 @@ Infrastructure-as-Code is implemented using Terraform, while two CI/CD pipelines
 
 View the site at [**georgekwabena.site**](https://georgekwabena.site).
 
-Check out my article about completing the project here:  [**The Cloud Resume Challenge:  My DevOps Journey from Building Technology to the Cloud**](https://www.linkedin.com/pulse/cloud-resume-challenge-my-devops-journey-from-building-william-lewis)
+Check out my article about completing the project here:  [**The Cloud Resume Challenge: From web3 Community Manager to Cloud/DevOps Engineer**](https://medium.com/@GeorgePro1/the-cloud-resume-challenge-from-web3-community-manager-to-cloud-devops-engineer-d9d8ea3c5150)
 
 
 <img src="./website-architecture-diagram.svg" alt="Website Architecture Diagram" width="100%" height="56.25%">
