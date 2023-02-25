@@ -100,5 +100,5 @@ Check out my article about completing the project here:  [**The Cloud Resume Cha
     - Cache of CloudFront distribution is invalidated (cleared) to ensure latest frontend content is immediately available to website visitors
 
 - [x] 16. Share Your Challenges and Learnings with a **Blog Post**
-    - article published on LinkedIn
+    - article published on Medium 
 
