@@ -12,7 +12,7 @@ Infrastructure-as-Code is implemented using Terraform, while two CI/CD pipelines
 
 </br>
 
-View the site at [**william-lewis.com**](https://william-lewis.com).
+View the site at [**georgekwabena.site**](https://georgekwabena.site).
 
 Check out my article about completing the project here:  [**The Cloud Resume Challenge:  My DevOps Journey from Building Technology to the Cloud**](https://www.linkedin.com/pulse/cloud-resume-challenge-my-devops-journey-from-building-william-lewis)
 
