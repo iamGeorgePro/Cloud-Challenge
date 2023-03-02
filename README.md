@@ -12,9 +12,9 @@ Infrastructure-as-Code is implemented using Terraform, while two CI/CD pipelines
 
 </br>
 
-View the site at [**william-lewis.com**](https://william-lewis.com).
+View the site at [**georgekwabena.site**](https://georgekwabena.site).
 
-Check out my article about completing the project here:  [**The Cloud Resume Challenge:  My DevOps Journey from Building Technology to the Cloud**](https://www.linkedin.com/pulse/cloud-resume-challenge-my-devops-journey-from-building-william-lewis)
+Check out my article about completing the project here:  [**The Cloud Resume Challenge: From web3 Community Manager to Cloud/DevOps Engineer**](https://medium.com/@GeorgePro1/the-cloud-resume-challenge-from-web3-community-manager-to-cloud-devops-engineer-d9d8ea3c5150)
 
 
 <img src="./website-architecture-diagram.svg" alt="Website Architecture Diagram" width="100%" height="56.25%">
@@ -28,7 +28,7 @@ Check out my article about completing the project here:  [**The Cloud Resume Cha
 
 
 - [x]  1. Earn an **AWS Certification**
-    - passed Cloud Practitioner in September 2022, the Solutions Architect Associate in October 2022
+    - passed Cloud Practitioner in September 2022, the Solutions Architect Associate in December 2022
 
 - [x]  2. Write Resume in **HTML**
     - utilized Bootstrap framework for general organization & positioning
@@ -100,5 +100,5 @@ Check out my article about completing the project here:  [**The Cloud Resume Cha
     - Cache of CloudFront distribution is invalidated (cleared) to ensure latest frontend content is immediately available to website visitors
 
 - [x] 16. Share Your Challenges and Learnings with a **Blog Post**
-    - article published on LinkedIn
+    - article published on Medium 
 
