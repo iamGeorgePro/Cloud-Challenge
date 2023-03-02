@@ -3,6 +3,9 @@ h1 {
     font-size: 44px !important;
     font-weight: bold;
 }
+body {
+    background-color: rgb(197, 227, 231);
+}
 
 h2 {
     font-family: 'Open Sans';
@@ -16,7 +19,7 @@ h3 {
     font-size: 15px !important;
     font-weight: bold;
 
-    background-color: rgb(223, 252, 255);
+    background-color: rgb(8, 208, 230);
     margin-top: 10px;
     margin-bottom: 10px;
     padding-top: 2px;
@@ -61,7 +64,7 @@ ul{
 
     border-top-style: solid;
     border-bottom-style: solid;
-    border-color: rgb(0, 0, 0);
+    border-color: rgb(227, 19, 19);
     border-width: 1px;
 
     padding: 1% 0;
@@ -92,8 +95,8 @@ ul{
     text-align: center;
     font-size: 15px !important;
     font-style: italic;
-    color:rgb(125, 125, 125);
-    background-color: rgb(235, 235, 235);
+    color:rgb(3, 75, 80);
+    background-color: rgb(255, 212, 212);
     margin-top: 10px;
     margin-bottom: 10px;
     padding-top: 12px;
